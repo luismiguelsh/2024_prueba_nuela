@@ -1,0 +1,120 @@
+:root {
+  --root-grey: #5E5E5E;
+  --root-text-grey: #A5A5A5;
+  --right-grey-background:#f8f9fa;
+  --square-top-background: #E8E9FE;
+  --square-bottom-background: #D6D5FF;
+  --bootstrap-darker-grey: #f0f0f0;
+  --bootstrap-lighter-grey: #fcfcfc;
+  --bootstrap-lighter-grey-b: #fbfbfb;
+  --main-color: rgb(92, 55, 235);
+  --main-color-lighter: #E6E5FE;
+  --secondary-color: #635BFF;
+  --main-red: #FB3640;
+  --main-text:#666666;
+}
+
+.App {
+  text-align: center;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Metrophobic', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.left-nav > li{
+  height: 40px;
+  margin: auto -10px;
+  padding: 5px 5px 5px 10px;
+  color:var(--main-text);
+  border-radius: 10px;
+  /* font-weight: 600; */
+  /* background-color: var(--right-grey-background); */
+}
+.left-nav > li:hover{
+  color:black;
+  background-color:var(--right-grey-background);
+  font-weight: bold;
+}
+
+.row {
+  min-height: 100vh;
+}
+
+.container-fluid {
+  background-color: var(--right-grey-background); 
+}
+
+.col-2 {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000000; /* Texto negro */
+}
+
+.bg-lighter-grey {
+  background-color: #FAFAFA;
+}
+
+hr {
+  color: grey;
+}
+
+.table-responsive {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  font-weight: 600;
+  border: 0.5px solid var(--bootstrap-darker-grey);
+  border-radius: 30px;
+  overflow: hidden;
+  /* box-shadow: 4px 4px 20px grey; */
+}
+
+.table > thead {
+  background-color: var(--bootstrap-darker-grey);
+}
+.table > thead > tr > th {
+  background-color: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: var(--root-text-grey);
+  font-weight: 500;
+  font-size: large;
+  line-height: 1;
+  background-color: var(--bootstrap-lighter-grey-b);
+}
+.table > thead > tr > th:first-child {
+  border-top-left-radius: 20px;
+  padding-left: 30px;
+}
+.table > thead > tr > th:last-child {
+  border-top-right-radius: 20px;
+}
+
+.table > tbody > tr > td {
+  color:var(--root-grey);
+  padding: 20px 0 10px 0;
+  font-size: smaller;
+}
+
+.table > tbody > tr > td:first-child {
+  border-bottom-left-radius: 20px;
+  padding-left: 30px;
+}
+.table > tbody > tr > td:last-child {
+  border-top-right-radius: 20px;
+  padding-left: 20px;
+} 
+
+/* .table > tbody > tr > td {
+  background-color: white;
+} */
